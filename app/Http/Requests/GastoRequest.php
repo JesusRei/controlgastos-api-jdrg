@@ -25,6 +25,7 @@ class GastoRequest extends FormRequest
             'descripcion' => ['required', 'string', 'max:255'],
             'monto' => ['required', 'numeric', 'min:0', 'max:999999.99'], // Monto debe ser numérico y mayor o igual a 0
             'fecha' => ['required', 'date'], // 
+            'categoria' => ['required', 'string', 'max:100'],
             'notas' => ['nullable', 'string', 'max:500'],
             'recurrente' => ['required', 'boolean'],
             'metodo_pago' => ['nullable', 'string', 'max:50'],
@@ -57,6 +58,11 @@ class GastoRequest extends FormRequest
             // Mensajes para fecha
             'fecha.required' => 'La fecha es obligatoria.',
             'fecha.date' => 'La fecha debe ser una fecha válida.',
+
+            // Mensajes para categoria
+            'categoria.required' => 'La categoría es obligatoria.',
+            'categoria.string' => 'La categoría debe ser un texto.',
+            'categoria.max' => "La categoría no puede exceder los 100 caracteres.",
 
             // Mensajes para notas
             "notas.string" => "Las notas deben ser un texto.",

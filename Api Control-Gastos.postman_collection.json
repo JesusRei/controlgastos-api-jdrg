@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"maci05@example.org\",\r\n    \"password\": \"password\",\r\n    \"name\": \"Okey Robel\"\r\n    \r\n}",
+					"raw": "{\r\n    \"email\": \"miller.armstrong@example.org\",\r\n    \"password\": \"password\",\r\n    \"name\": \"Ted Howell PhD\"\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -49,7 +49,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
+							"value": "3|C3bdnS0TbL2XY4d5cXvDZRKD9aR1iDecree3szICa70d2e25",
 							"type": "string"
 						}
 					]
@@ -85,7 +85,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
+							"value": "3|C3bdnS0TbL2XY4d5cXvDZRKD9aR1iDecree3szICa70d2e25",
 							"type": "string"
 						}
 					]
@@ -100,7 +100,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"descripcion\": \"Compra de Gatos\",\r\n    \"monto\": 300.00,\r\n    \"fecha\": \"2024-10-13\",\r\n    \"categoria\": \"Animales\",\r\n    \"notas\": \"\",\r\n    \"recurrente\": false,\r\n    \"metodo_pago\": \"Tarjeta\",\r\n    \"frecuencia\": null,\r\n    \"estado\": \"Cancelado\",\r\n    \"moneda\": \"COP\",\r\n    \"proveedor\": \"Proveedor XYZ\",\r\n    \"categoria_id\": 4\r\n\r\n}",
+					"raw": "{\r\n    \"descripcion\": \"Compra de Gatos\",\r\n    \"monto\": 300.00,\r\n    \"fecha\": \"2024-10-13\",\r\n    \"categoria\": \"Animales\",\r\n    \"notas\": \"\",\r\n    \"recurrente\": false,\r\n    \"metodo_pago\": \"Tarjeta\",\r\n    \"frecuencia\": null,\r\n    \"estado\": \"Cancelado\",\r\n    \"moneda\": \"COP\",\r\n    \"proveedor\": \"Proveedor XYZ\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -130,7 +130,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
+							"value": "3|C3bdnS0TbL2XY4d5cXvDZRKD9aR1iDecree3szICa70d2e25",
 							"type": "string"
 						}
 					]
@@ -144,7 +144,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8000/api/gastos/21",
+					"raw": "http://localhost:8000/api/gastos/54",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -153,7 +153,7 @@
 					"path": [
 						"api",
 						"gastos",
-						"21"
+						"54"
 					]
 				}
 			},
@@ -167,7 +167,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
+							"value": "3|C3bdnS0TbL2XY4d5cXvDZRKD9aR1iDecree3szICa70d2e25",
 							"type": "string"
 						}
 					]
@@ -182,7 +182,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"descripcion\": \"Compra de materiales\",\r\n    \"monto\": 150.00,\r\n    \"fecha\": \"2024-10-18\",\r\n    \"categoria\": \"materiales\",\r\n    \"notas\": \"\",\r\n    \"recurrente\": false,\r\n    \"metodo_pago\": \"Efectivo\",\r\n    \"frecuencia\": null,\r\n    \"estado\": \"Cancelado\",\r\n    \"moneda\": \"COP\",\r\n    \"categoria_id\": 7\r\n}",
+					"raw": "{\r\n    \"descripcion\": \"Compra de materiales\",\r\n    \"monto\": 150.00,\r\n    \"fecha\": \"2024-10-18\",\r\n    \"categoria\": \"materiales\",\r\n    \"notas\": \"\",\r\n    \"recurrente\": false,\r\n    \"metodo_pago\": \"Efectivo\",\r\n    \"frecuencia\": null,\r\n    \"estado\": \"Cancelado\",\r\n    \"moneda\": \"COP\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -190,7 +190,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/gastos/1",
+					"raw": "http://localhost:8000/api/gastos/52",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -199,7 +199,7 @@
 					"path": [
 						"api",
 						"gastos",
-						"1"
+						"52"
 					]
 				}
 			},
@@ -213,7 +213,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
+							"value": "3|C3bdnS0TbL2XY4d5cXvDZRKD9aR1iDecree3szICa70d2e25",
 							"type": "string"
 						}
 					]
@@ -227,7 +227,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8000/api/gastos/21",
+					"raw": "http://localhost:8000/api/gastos/53",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -236,208 +236,7 @@
 					"path": [
 						"api",
 						"gastos",
-						"21"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "ListarCategorias",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
-							"type": "string"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": "http://localhost:8000/api/categorias",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"categorias"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "CrearCategoria",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
-							"type": "string"
-						}
-					]
-				},
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"nombre\": \"Smartphones\",\r\n  \"descripcion\": \"Categoría de teléfonos inteligentes\",\r\n  \"activa\": true,\r\n  \"descuento\": 15\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:8000/api/categorias",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"categorias"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "ObtenerCategoria",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
-							"type": "string"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": "http://localhost:8000/api/categorias/21",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"categorias",
-						"21"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "ActualizarCategoria",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
-							"type": "string"
-						}
-					]
-				},
-				"method": "PUT",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"nombre\": \"Computador\",\r\n  \"descuento\": 9.5\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:8000/api/categorias/2",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"categorias",
-						"2"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "DestruirCategoria",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "1|ZaB04ocAP57vN2UnZjHnvAPazRCUkaNDBFOroqYFdcb0ea46",
-							"type": "string"
-						}
-					]
-				},
-				"method": "DELETE",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": "http://localhost:8000/api/categorias/21",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"categorias",
-						"21"
+						"53"
 					]
 				}
 			},

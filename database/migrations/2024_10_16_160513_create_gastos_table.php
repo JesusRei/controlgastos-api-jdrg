@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('descripcion'); // Descripción del gasto
             $table->decimal('monto', 8, 2);
             $table->date('fecha');
+            $table->string('categoria'); // Categoría del gasto
             $table->text('notas')->nullable(); // Notas adicionales sobre el gasto
             $table->boolean('recurrente')->default(false); // Indica si el gasto es recurrente
             $table->string('metodo_pago')->nullable();

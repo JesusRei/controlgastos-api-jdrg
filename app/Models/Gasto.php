@@ -13,6 +13,7 @@ class Gasto extends Model
         'descripcion',
         'monto',
         'fecha',
+        'categoria',
         'notas',
         'recurrente',
         'metodo_pago',
@@ -20,11 +21,5 @@ class Gasto extends Model
         'estado',
         'moneda',
         'proveedor',
-       'categoria_id'
     ];
-
-    public function categoria()
-    {
-        return $this->belongsTo(Categoria::class);
-    }
 }

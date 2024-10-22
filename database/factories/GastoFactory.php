@@ -2,9 +2,7 @@
 
 namespace Database\Factories;
 
-
 use Illuminate\Database\Eloquent\Factories\Factory;
-use App\Models\Categoria;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Gasto>
@@ -22,6 +20,7 @@ class GastoFactory extends Factory
             'descripcion' => $this->faker->sentence,
             'monto' => $this->faker->randomFloat(2, 10, 1000),
             'fecha' => $this->faker->date,
+            'categoria' => $this->faker->word,
             'notas' => $this->faker->paragraph,
             'recurrente' => $this->faker->boolean,
             'metodo_pago' => $this->faker->word,
@@ -29,7 +28,6 @@ class GastoFactory extends Factory
             'estado' => $this->faker->randomElement(['Pendiente', 'Pagado', 'Cancelado']),
             'moneda' => 'USD',
             'proveedor' => $this->faker->company,
-            'categoria_id' => Categoria::factory(),
         ];
     }
 }

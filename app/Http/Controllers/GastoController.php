@@ -14,7 +14,7 @@ class GastoController extends Controller
      */
     public function index()
     {
-        return Gasto::all();
+        return Gasto::paginate();
     }
 
     /**
@@ -29,15 +29,9 @@ class GastoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show($id)
+    public function show(Gasto $gasto)
     {
-        $gasto = Gasto::with('categoria')->find($id);
-    
-        if (!$gasto) {
-            return response()->json(['message' => 'Gasto no encontrado'], 404);
-        }
-    
-        return response()->json($gasto, 200);
+        return response()->json(['gasto' => $gasto], Response::HTTP_OK);
     }
 
     /**
